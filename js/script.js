@@ -1,25 +1,18 @@
+---
+---
+
 $(document).ready(function(){
 
-	var MainPage = Backbone.View.extend({
-		el: '#container',
-		render: function(){
-			this.$el.html('Page content goes here!!!!!');
-		}
-	});
+	var util = {},
+		views = {}; // util is on the Window level, since it needs to be accessed by the templates
 
-	mainPage = new MainPage();
+	{% include common/util.js %}
+	{% include common/collections.js %}
+	{% include common/models.js %}
 
-	var Router = Backbone.Router.extend({
-		routes: {
-			'': 'home'
-		}
-	});
+	{% include router/router.js %}
 
-	var router = new Router();
-
-	router.on('route:home', function(){
-		mainPage.render();
-	});
+	{% include views/mainPage.js %}
 
 	Backbone.history.start(); //necessary to start backbone
 
