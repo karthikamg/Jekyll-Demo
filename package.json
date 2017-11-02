@@ -1,0 +1,33 @@
+{
+  "name": "jekyll-demo-site",
+  "version": "1.0.0",
+  "description": "Jekyll demo site documentation ------------------------------",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-help": "^1.6.1"
+  },
+  "devDependencies": {
+    "d3-sankey": "^0.7.1",
+    "gulp": "^3.9.1",
+    "gulp-help": "^1.6.1",
+    "gulp-minify": "^1.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "scss-compile": "^0.1.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthikamg/Jekyll-Demo.git"
+  },
+  "author": "Karthika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthikamg/Jekyll-Demo/issues"
+  },
+  "homepage": "https://github.com/karthikamg/Jekyll-Demo#readme"
+}

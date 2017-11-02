@@ -17,6 +17,10 @@ baseurl:  # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
+compress_html:
+  clippings: all
+  comments:  ["<!-- ", " -->"]
+  endings:   all
 theme:
 
 # Exclude from processing.
